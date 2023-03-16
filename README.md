@@ -5,6 +5,7 @@
 to run: 
 ```bash
 git clone https://github.com/snek-git/tf-task1.git
+cd tf-task1
 terraform init
 terraform apply
 ```
