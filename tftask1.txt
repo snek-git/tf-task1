@@ -1,0 +1,15 @@
+create network with
+firewall
+NAT
+routes
+subnets
+
+needs to not be parallel
+
+Subnet CIDR: 10.184.0.0/16
+Secondary Subnet CIDR:
+172.16.0.0/12 - Pods
+192.168.0.0/16 - Services
+
+Should carve out 5 /20 subnets. 
+Out of 5 subnets 3 should have secondary subnets.
